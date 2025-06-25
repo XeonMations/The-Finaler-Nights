@@ -6675,5 +6675,10 @@
 #include "interface\fonts\spess_font.dm"
 #include "interface\fonts\tiny_unicode.dm"
 #include "interface\fonts\vcr_osd_mono.dm"
+#include "modular_tfn\modules\flooring\floor.dm"
+#include "modular_tfn\modules\flooring\floor_subtypes.dm"
 #include "modular_tfn\modules\map_areas\areas.dm"
+#include "modular_tfn\modules\walls\addwall_effect.dm"
+#include "modular_tfn\modules\walls\vampwall.dm"
+#include "modular_tfn\modules\walls\wall_subtypes.dm"
 // END_INCLUDE
