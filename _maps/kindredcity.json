@@ -3,6 +3,7 @@
 	"map_name": "San Francisco",
 	"map_path": "modular_tfn",
 	"map_file": "SanFrancisco.dmm",
+	"planetary": 1,
 	"traits": [
 		{
 			"Up": 1,
@@ -18,22 +19,29 @@
 		{
 			"Up": 1,
 			"Down": -1,
-			"Baseturf": "/turf/open/floor/plating",
+			"Baseturf": "/turf/open/openspace",
+			"Linkage": "Cross"
+		},
+		{
+			"Up": 1,
+			"Down": -1,
+			"Baseturf": "/turf/open/openspace",
+			"Linkage": "Cross"
+		},
+		{
+			"Up": 1,
+			"Down": -1,
+			"Baseturf": "/turf/open/openspace",
 			"Linkage": "Cross"
 		},
 		{
 			"Down": -1,
-			"Baseturf": "/turf/open/floor/plating",
+			"Baseturf": "/turf/open/openspace",
 			"Linkage": "Cross"
 		},
 		{
-			"Baseturf": "/turf/open/floor/plating"
-		},
-		{
-			"Baseturf": "/turf/open/floor/plating"
-		},
-		{
-			"Baseturf": "/turf/open/floor/plating"
+			"Baseturf": "/turf/open/floor/plating",
+			"Linkage": "Cross"
 		}
 	]
 }

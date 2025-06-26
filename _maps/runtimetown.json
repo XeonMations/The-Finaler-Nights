@@ -3,6 +3,7 @@
 	"map_name": "Runtime Town",
 	"map_path": "modular_tfn",
 	"map_file": "runtimetown.dmm",
+	"planetary": 1,
 	"traits": [
 		{
 			"Up": 1,
@@ -11,7 +12,7 @@
 		},
 		{
 			"Down": -1,
-			"Baseturf": "/turf/open/floor/plating",
+			"Baseturf": "/turf/open/openspace",
 			"Linkage": "Cross"
 		}
 	]
