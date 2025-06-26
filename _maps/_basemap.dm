@@ -16,8 +16,8 @@
 		//#include "map_files\CatwalkStation\CatwalkStation_2023.dmm"
 		//#include "map_files\NebulaStation\NebulaStation.dmm"
 		//#include "map_files\wawastation\wawastation.dmm"
-		#include "map_files\Vampire\runtimetown.dmm"
-		#include "map_files\Vampire\SanFrancisco.dmm"
+		#include "modular_tfn\runtimetown.dmm"
+		#include "modular_tfn\SanFrancisco.dmm"
 		//TFN EDIT END
 	#endif
 	#ifdef ALL_TEMPLATES
