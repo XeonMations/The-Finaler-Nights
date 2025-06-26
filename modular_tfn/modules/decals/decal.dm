@@ -165,3 +165,110 @@
 
 /obj/effect/decal/painting/third
 	icon_state = "painting3"
+
+
+/obj/effect/decal/asphalt
+	name = "asphalt"
+	icon = 'modular_tfn/modules/decals/decal.dmi'
+	icon_state = "decal1"
+	mouse_opacity = 0
+
+/obj/effect/decal/asphalt/Initialize()
+	..()
+	icon_state = "decal[rand(1, 24)]"
+	update_appearance()
+	if(check_holidays(CHRISTMAS))
+		if(istype(get_area(src), /area/vtm))
+			var/area/vtm/V = get_area(src)
+			if(V.outdoors)
+				alpha = 25
+
+/obj/effect/decal/snow_overlay
+	name = "snow"
+	icon = 'modular_tfn/modules/decals/decal.dmi'
+	icon_state = "snow_overlay"
+	alpha = 200
+	mouse_opacity = 0
+
+/obj/effect/decal/asphaltline
+	name = "asphalt"
+	icon = 'modular_tfn/modules/decals/decal.dmi'
+	icon_state = "line"
+	mouse_opacity = 0
+
+/obj/effect/decal/asphaltline/alt
+	icon_state = "line_alt"
+
+/obj/effect/decal/asphaltline/Initialize()
+	..()
+	icon_state = "[initial(icon_state)][rand(1, 3)]"
+	update_appearance()
+	if(check_holidays(CHRISTMAS))
+		if(istype(get_area(src), /area/vtm))
+			var/area/vtm/V = get_area(src)
+			if(V.outdoors)
+				icon_state = "[initial(icon_state)][rand(1, 3)]-snow"
+
+/obj/effect/decal/crosswalk
+	name = "asphalt"
+	icon = 'modular_tfn/modules/decals/decal.dmi'
+	icon_state = "crosswalk1"
+	mouse_opacity = 0
+
+/obj/effect/decal/crosswalk/Initialize()
+	..()
+	icon_state = "crosswalk[rand(1, 3)]"
+	update_appearance()
+	if(check_holidays(CHRISTMAS))
+		if(istype(get_area(src), /area/vtm))
+			var/area/vtm/V = get_area(src)
+			if(V.outdoors)
+				icon_state = "crosswalk[rand(1, 3)]-snow"
+
+/obj/effect/decal/stock
+	name = "stock"
+	icon = 'modular_tfn/modules/decals/decal.dmi'
+	icon_state = "stock"
+	mouse_opacity = 0
+
+
+/obj/effect/decal/bordur
+	name = "sidewalk"
+	icon = 'modular_tfn/modules/decals/decal.dmi'
+	icon_state = "border"
+	mouse_opacity = 0
+
+/obj/effect/decal/bordur/Initialize()
+	. = ..()
+	if(check_holidays(CHRISTMAS))
+		if(istype(get_area(src), /area/vtm))
+			var/area/vtm/V = get_area(src)
+			if(V.outdoors)
+				icon_state = "[initial(icon_state)]-snow"
+
+/obj/effect/decal/bordur/corner
+	icon_state = "border_corner"
+
+/obj/effect/decal/coastline
+	name = "water"
+	icon = 'modular_tfn/modules/decals/decal.dmi'
+	icon_state = "coastline"
+
+/obj/effect/decal/coastline/corner
+	icon_state = "coastline_corner"
+
+/obj/effect/decal/shadow
+	name = "shadow"
+	icon = 'modular_tfn/modules/decals/decal.dmi'
+	icon_state = "shadow"
+
+/obj/effect/decal/shadow/Initialize()
+	. = ..()
+	if(istype(loc, /turf/open/openspace))
+		forceMove(get_step(src, NORTH))
+		pixel_y = -32
+
+/obj/effect/decal/support
+	name = "support"
+	icon = 'modular_tfn/modules/decals/decal.dmi'
+	icon_state = "support"

@@ -6683,6 +6683,7 @@
 #include "modular_tfn\modules\map_areas\areas.dm"
 #include "modular_tfn\modules\matrix\matrix.dm"
 #include "modular_tfn\modules\props\_props..dm"
+#include "modular_tfn\modules\wallpaper\wallpaper.dm"
 #include "modular_tfn\modules\walls\addwall_effect.dm"
 #include "modular_tfn\modules\walls\vampwall.dm"
 #include "modular_tfn\modules\walls\wall_subtypes.dm"

@@ -16,6 +16,13 @@
 #define FOOTSTEP_CARPET_BAREFOOT "carpetbarefoot"
 //misc footstep sounds
 #define FOOTSTEP_GENERIC_HEAVY "heavy"
+//TFN EDIT START
+#define FOOTSTEP_SNOW "snow"
+#define FOOTSTEP_PARKET "parket"
+#define FOOTSTEP_ASPHALT "asphalt"
+#define FOOTSTEP_TRAVA "trava"
+#define FOOTSTEP_TROTUAR "trotuar"
+//TFN EDIT END
 
 
 //footstep mob defines
@@ -100,6 +107,25 @@ GLOBAL_LIST_INIT(footstep, list(
 		'sound/effects/footstep/catwalk3.ogg',
 		'sound/effects/footstep/catwalk4.ogg',
 		'sound/effects/footstep/catwalk5.ogg'), 100, 1),
+	// TFN EDIT START
+	FOOTSTEP_PARKET = list(list(
+		'modular_tfn/master_files/sound/the_final_nights/parket1.ogg',
+		'modular_tfn/master_files/sound/the_final_nights/parket2.ogg',
+		'modular_tfn/master_files/sound/the_final_nights/parket3.ogg'), 75, 1),
+	FOOTSTEP_ASPHALT = list(list(
+		'modular_tfn/master_files/sound/the_final_nights/asphalt1.ogg',
+		'modular_tfn/master_files/sound/the_final_nights/asphalt2.ogg'), 75, 1),
+	FOOTSTEP_SNOW = list(list(
+		'modular_tfn/master_files/sound/the_final_nights/snow2.ogg'), 10, 1),
+	FOOTSTEP_TRAVA = list(list(
+		'modular_tfn/master_files/sound/the_final_nights/trava1.ogg',
+		'modular_tfn/master_files/sound/the_final_nights/trava2.ogg',
+		'modular_tfn/master_files/sound/the_final_nights/trava3.ogg'), 75, 1),
+	FOOTSTEP_TROTUAR = list(list(
+		'modular_tfn/master_files/sound/the_final_nights/trotuar1.ogg',
+		'modular_tfn/master_files/sound/the_final_nights/trotuar2.ogg',
+		'modular_tfn/master_files/sound/the_final_nights/trotuar3.ogg'), 75, 1),
+	// TFN EDIT END
 ))
 
 //bare footsteps lists
@@ -144,6 +170,33 @@ GLOBAL_LIST_INIT(barefootstep, list(
 		'sound/effects/footstep/lava3.ogg'), 100, 0),
 	FOOTSTEP_MEAT = list(list(
 		'sound/effects/meatslap.ogg'), 100, 0),
+	//TFN EDIT START
+	FOOTSTEP_PARKET = list(list(
+		'sound/effects/footstep/woodbarefoot1.ogg',
+		'sound/effects/footstep/woodbarefoot2.ogg',
+		'sound/effects/footstep/woodbarefoot3.ogg',
+		'sound/effects/footstep/woodbarefoot4.ogg',
+		'sound/effects/footstep/woodbarefoot5.ogg'), 75, 1),
+	FOOTSTEP_ASPHALT = list(list(
+		'sound/effects/footstep/hardbarefoot1.ogg',
+		'sound/effects/footstep/hardbarefoot2.ogg',
+		'sound/effects/footstep/hardbarefoot3.ogg',
+		'sound/effects/footstep/hardbarefoot4.ogg',
+		'sound/effects/footstep/hardbarefoot5.ogg'), 75, 1),
+	FOOTSTEP_SNOW = list(list(
+		'modular_tfn/master_files/sound/the_final_nights/snow1.ogg',
+		'modular_tfn/master_files/sound/the_final_nights/snow2.ogg'), 75, 1),
+	FOOTSTEP_TRAVA = list(list(
+		'modular_tfn/master_files/sound/the_final_nights/trava1.ogg',
+		'modular_tfn/master_files/sound/the_final_nights/trava2.ogg',
+		'modular_tfn/master_files/sound/the_final_nights/trava3.ogg'), 75, 1),
+	FOOTSTEP_TROTUAR = list(list(
+		'sound/effects/footstep/hardbarefoot1.ogg',
+		'sound/effects/footstep/hardbarefoot2.ogg',
+		'sound/effects/footstep/hardbarefoot3.ogg',
+		'sound/effects/footstep/hardbarefoot4.ogg',
+		'sound/effects/footstep/hardbarefoot5.ogg'), 75, 1),
+	//TFN EDIT END
 ))
 
 //claw footsteps lists

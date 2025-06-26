@@ -1,0 +1,2 @@
+/turf/open/floor/plating/shit/@SUBTYPES : /turf/open/floor/plating/sewage/@SUBTYPES{@OLD}
+/turf/open/floor/plating/shit : /turf/open/floor/plating/sewage{@OLD}
