@@ -42,7 +42,7 @@
 
 /obj/effect/decal/pallet
 	name = "pallet"
-	icon = 'code/modules/wod13/props.dmi'
+	icon = 'modular_tfn/modules/decals/pallet.dmi'
 	icon_state = "under1"
 
 /obj/effect/decal/pallet/Initialize()
@@ -51,7 +51,7 @@
 
 /obj/effect/decal/trash
 	name = "trash"
-	icon = 'code/modules/wod13/props.dmi'
+	icon = 'modular_tfn/modules/decals/trash.dmi'
 	icon_state = "trash1"
 
 /obj/effect/decal/trash/Initialize()
@@ -156,7 +156,7 @@
 
 /obj/effect/decal/painting
 	name = "painting"
-	icon = 'code/modules/wod13/icons.dmi'
+	icon = 'modular_tfn/modules/decals/painting.dmi'
 	icon_state = "painting1"
 	plane = GAME_PLANE
 

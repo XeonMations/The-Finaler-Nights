@@ -887,7 +887,7 @@
 /obj/structure/vamptree/pine
 	name = "pine"
 	desc = "Cute and tall flora."
-	icon = 'code/modules/wod13/pines.dmi'
+	icon = 'modular_tfn/modules/props/pines.dmi'
 	icon_state = "pine1"
 	plane = GAME_PLANE
 	layer = SPACEVINE_LAYER
