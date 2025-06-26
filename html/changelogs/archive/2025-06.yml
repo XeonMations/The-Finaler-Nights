@@ -603,3 +603,9 @@
   grungussuss:
   - spellcheck: fixes some examine text typos
   - qol: you can now click on objects in the game when the lobby art starts to fade
+2025-06-26:
+  XeonMations:
+  - rscadd: Added testing evidence tab to PRs
+  - rscadd: Added modularization shenanigens for us being a proper downstream
+  carpotoxin:
+  - bugfix: Fixed narcolepsy's odds to put you to sleep scaling infinitely
