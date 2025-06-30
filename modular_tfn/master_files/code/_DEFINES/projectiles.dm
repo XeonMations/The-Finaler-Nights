@@ -1,0 +1,5 @@
+#define CALIBER_44 ".44"
+#define CALIBER_556			"5.56mm"
+#define CALIBER_12G			"12g"
+#define CALIBER_46			"4.6mm"
+#define CALIBER_762			"7.62mm"

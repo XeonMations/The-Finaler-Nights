@@ -1,2 +1,4 @@
 /turf/open/floor/plating/shit/@SUBTYPES : /turf/open/floor/plating/sewage/@SUBTYPES{@OLD}
 /turf/open/floor/plating/shit : /turf/open/floor/plating/sewage{@OLD}
+/obj/item/reagent_containers/glass/bottle/morphine : /obj/item/reagent_containers/cup/bottle/morphine{@OLD}
+/obj/item/stock_parts/cell/high : /obj/item/stock_parts/power_store/cell/high{@OLD}
