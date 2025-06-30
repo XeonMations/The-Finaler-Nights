@@ -6676,6 +6676,7 @@
 #include "interface\fonts\tiny_unicode.dm"
 #include "interface\fonts\vcr_osd_mono.dm"
 #include "modular_tfn\master_files\code\_DEFINES\projectiles.dm"
+#include "modular_tfn\modules\ammunition\ammostack.dm"
 #include "modular_tfn\modules\atms\atm.dm"
 #include "modular_tfn\modules\car_props\car.dm"
 #include "modular_tfn\modules\computers\app.dm"
